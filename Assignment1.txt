@@ -1,0 +1,39 @@
+Q1 What is Emmet?
+Ans:- Emmet is a built-in feature of the Vscode which helps us by providing suggestions and writing short names and getting the suggestion list.
+
+Q2  Difference between a Library and Framework?
+Ans:-Library is a collection of code/modules which is written by other developers and we can simply import it and reuse it. There are predefined modules. It has less peice of code so its performance is fast.
+
+Framework is a code written by the user for its specific use. It includes a lot of API'S,compilers and many more. It has a more length of code and thus it has comparitively less performance . Including the framwork in the existing code is difficult.
+
+Q3 What is CDN? Why do we use it?
+Ans:- CDN refers to the Content Delivery Network. It is a group of servers linked together which helps in less cost,improving website load times,increasing content availablity and redundancy,website security.They help in quick transfer of files,modules,images etc.
+
+Q4  Why is React known as React?
+Ans:- React is a Javascript Library which was developed by Facebook. It aims to help developers build User Interfaces that are fast and responsive or "reactive".When data in application changes its component that depends on data also changes which makes it efficient and seamless updates to the UI.The library was designed to 'react' to changes in data.
+
+Q5 What is crossorigin in script tag?
+Ans:- crossorigin specifies that the script elements supports CORS which stands for Crossorigin Resource Sharing. It helps in retrieving data from different servers and clients.
+
+Q6 What is diference between React and ReactDOM?
+Ans:- Basically React is the core bundle and reactDOM helps with the manipulation of DOM elements.
+
+Q7 What is difference between react.development.js and react.production.js files via CDN?
+Ans:-  react.development.js is a developer-friendly,readable wherease react.production.js are the minified version which is not much readable by the developer.
+
+Q8 What is async and defer?
+Ans:- defer-The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM. The script loads “in the background”, and then runs when the DOM is fully built.
+async-async scripts load in the background and run when ready. The DOM and other scripts don’t wait for them, and they don’t wait for anything. A fully independent script that runs when loaded.
+
+HTML-
+<h1>Hello World</h1>
+
+JS-
+const heading=document.createElement("h1");
+h1.innerText="Hello World";
+
+React-
+
+const heading1=React.createElement("h1",{},"Hello World");
+const root=ReactDOM.createRoot(document.getElementbyId("root"));
+root.render(heading1);
